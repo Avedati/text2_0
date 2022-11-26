@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=-std=c11 -lncurses
 TARGETS=src/*.c
-OUT=bin/myvi
+OUT=bin/text2_0
 
 all:
 	$(CC) $(CFLAGS) $(TARGETS) -o $(OUT)
